@@ -9,7 +9,7 @@ variables:
   dockerRegistryServiceConnection: 'RyneCR'
   imageRepository: 'javascriptdocker'
   containerRegistry: 'rynecr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
